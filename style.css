@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.nav{
+    /* background: rgb(241, 240, 240); */
+    padding: 15px;
+    display: flex;
+    height: 9vh;
+    width: 100vw;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0px 0px 10px orange;
+}
+div.nav .logo{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+
+}
+div.nav .logo img{
+    height: 8vh;
+    border-radius: 15px;
+    
+}
+div.nav .logo a{
+    color: goldenrod;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 10px;
+    /* font-size: ; */
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+div.nav .links{
+    /* padding-left: 5vw; */
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 15vw;
+}
+div.nav .links a{
+    padding: 9px;
+    text-decoration: none;
+    position: relative;
+    margin: 0px 10px;
+    transition: 0.4s;
+}
+div.nav .links a:hover{
+    color: goldenrod;
+}
+div.nav .links a::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: goldenrod;
+    left: -5px;
+    bottom: 5px;
+    transition: 0.3s;
+}
+div.nav .links a:hover::after{
+    width: 110%;
+}
+div.nav div.log{
+    width: 10vw;
+    margin-left: 10vw;
+}
+div.nav div.log a{
+    text-decoration: none;
+    padding: 7px;
+    font-family: sans-serif;
+    color: #111;
+    background: orange;
+    box-shadow: 0 0 10px orange;
+    overflow: hidden;
+}
+div.home2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* overflow: hidden; */
+}
+div.home2 .text img#some{
+    width: 25%;
+    margin-left: 41%;
+}
+div.home2 .imgpk img{
+    height: 150%;
+    width: 200%;
+    margin-left: -15vw;
+}
+div.home2 .text h2{
+    color: goldenrod;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 10%;
+    text-align: center;
+}
+div.home2 .text p{
+    margin: 0 10% 0 20%;
+    text-align: center;
+}
+div.home2 .text img#oho{
+    margin-left: 6vw;
+}
+div.home2 .text img.imgok{
+    margin-left: 5vw;
+}
+div.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+    height: 4vh;
+    width: 100vw;
+    background: orange;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+div.nav2 a{
+    margin: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
